@@ -1,4 +1,9 @@
 /**foglio di stile**/
+[class^=col].bg-light{
+    background-color: white;
+    color: black;
+    text-align: left;
+}
 
 .row{
 }
@@ -6,10 +11,25 @@
 [class^=col]{
     height: 70px;
     background-color: rgb(6, 106, 236);
+    line-height: 70px;
+    vertical-align: middle;
+    text-align: center;
     border: 1px solid white;
+    color: white;
 }
 
 .nested{
-    background-color: greenyellow;
+    background-color: rgb(14, 143, 83);
+    line-height: 40px;
+    height: 40px;
+}
+
+.padding.content-center{
+    padding:0 10px;
     
+}
+
+.row.padding .col-6
+.row.padding{
+    height: 70px;
 }
