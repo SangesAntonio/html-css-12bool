@@ -1,12 +1,15 @@
 /**foglio di stile**/
 
 .row{
-    height: 70px;
-    
 }
 
 [class^=col]{
     height: 70px;
     background-color: rgb(6, 106, 236);
     border: 1px solid white;
+}
+
+.nested{
+    background-color: greenyellow;
+    
 }
