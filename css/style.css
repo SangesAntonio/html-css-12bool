@@ -1,0 +1,12 @@
+/**foglio di stile**/
+
+.row{
+    height: 80px;
+    
+}
+
+[class^=col]{
+    height: auto;
+    background-color: rgb(6, 106, 236);
+    border: 1px solid white;
+}
