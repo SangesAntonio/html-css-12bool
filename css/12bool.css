@@ -113,6 +113,17 @@
     text-align: end;
 }
 
+.content-between{
+    justify-content: space-between;
+}
+.content-around{
+    justify-content: space-around;
+}
+.content-evenly{
+    justify-content: space-evenly;
+}
+
+
 .align-start{
     align-items: flex-start;
 }

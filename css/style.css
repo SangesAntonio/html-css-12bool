@@ -1,8 +1,10 @@
 /**foglio di stile**/
 [class^=col].bg-light{
+    height: auto;
     background-color: white;
     color: black;
     text-align: left;
+    line-height: 1.5rem;
 }
 
 .row{
@@ -22,19 +24,23 @@
     height: 140px;
 }
 
+[class^=col].text{
+   line-height: 1rem;
+}
+
 .nested{
     background-color: rgb(26, 192, 115);
     line-height: 40px;
     height: 40px;
 }
 
+.col-12.padding,
 .col-5.padding,
 .col-7.padding,
 .padding.content-center{
     padding: 15px;
     
 }
-
 .col-7.padding,
 .row.padding{
     height: 70px;
