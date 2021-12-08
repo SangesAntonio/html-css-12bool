@@ -19,17 +19,19 @@
 }
 
 .nested{
-    background-color: rgb(14, 143, 83);
+    background-color: rgb(26, 192, 115);
     line-height: 40px;
     height: 40px;
 }
 
+.col-5.padding,
+.col-7.padding,
 .padding.content-center{
-    padding:0 10px;
+    padding: 15px;
     
 }
 
-.row.padding .col-6
+.col-7.padding,
 .row.padding{
     height: 70px;
 }
